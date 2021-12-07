@@ -20,3 +20,6 @@
    ### 手動安裝 :
       將zh-TW內的檔案 translation.json
       覆蓋到配裝器資料夾下 : FribbelsE7Optimizer\data\locales\zh-TW 內即可。
+
+## 防毒軟體 :
+      因為使用 PyInstaller 進行打包作業，因此容易被防毒軟體誤判，如果被誤判成病毒，請手動新增到例外清單(白名單)。
