@@ -6,13 +6,13 @@ zh_url = 'https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/m
 zh_TW = './zh-TW'
 zh = './zh'
 
-#¦pªG¨S¦³¸ê®Æ§¨°õ¦æ«Ø¥ß
+#å¦‚æœæ²’æœ‰è³‡æ–™å¤¾åŸ·è¡Œå»ºç«‹
 if not os.path.isdir(zh_TW):
 	os.mkdir(zh_TW)
 if not os.path.isdir(zh):
 	os.mkdir(zh)
 
-#¤U¸ü GitHub ¤ºªºÂ½Ä¶ÀÉ
+#ä¸‹è¼‰ GitHub å…§çš„ç¿»è­¯æª”
 r = requests.get(zh_TW_url) 
 with open('./zh-TW/translation.json','wb') as f: 
   f.write(r.content)
@@ -21,6 +21,6 @@ r = requests.get(zh_url)
 with open('./zh/translation.json','wb') as f: 
   f.write(r.content)
 
-#°õ¦æ batch.bat ªº©I¥s
+#åŸ·è¡Œ batch.bat çš„å‘¼å«
 from subprocess import Popen
 p = Popen("batch.bat", cwd=r"./")
