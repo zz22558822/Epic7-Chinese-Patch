@@ -11,3 +11,12 @@
 
 * ### **Optimizer patch v1.0 - zz22558822.exe**
     * 來源從作者處更改後上傳的此 GitHub 下載的中文化翻譯檔 (如果原作者處無更新，通常是使用此檔案即可。)
+
+
+## 使用方法 :
+   ### 自動安裝 :
+      使用 Optimizer patch v1.0 即可。
+      
+   ### 手動安裝 :
+      將zh-TW內的檔案 translation.json
+      覆蓋到配裝器資料夾下 : FribbelsE7Optimizer\data\locales\zh-TW 內即可。
